@@ -23,19 +23,6 @@ ds = Dataset("https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.json?access
 ds.meta_df()
 ```
 <div>
-<style>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -71,19 +58,6 @@ ds.column_df()
 ```
 <div>
 
-<style>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -142,4 +116,4 @@ ds.column_df()
  .plot.scatter(x="mathematics_mean",y="critical_reading_mean")
 )
 ```
-![png](images/example_nycsat.png)
+<img src="images/example_nycsat.png" width="25%" />

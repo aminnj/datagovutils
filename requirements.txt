@@ -1,0 +1,6 @@
+yajl
+ijson
+numpy
+pandas
+requests
+tqdm

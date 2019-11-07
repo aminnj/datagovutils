@@ -6,7 +6,7 @@ Removes some overhead with downloading and parsing datasets from [data.gov](http
 Supports loading json datasets over http or locally into pandas dataframes. Also supports
 chunked iteration/streaming.
 
-### Installation / Usage
+### Installation
 
 ```bash
 pip install git+git://github.com/aminnj/datagovutils.git#egg=datagovutils -U
@@ -23,7 +23,7 @@ ds = Dataset("https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.json?access
 ds.meta_df()
 ```
 <div>
-<table>
+<table style="font-size: 75%">
   <thead>
     <tr style="text-align: right;">
       <th></th>

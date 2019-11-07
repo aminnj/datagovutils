@@ -22,8 +22,7 @@ from datagovutils import Dataset
 ds = Dataset("https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.json?accessType=DOWNLOAD")
 ds.meta_df()
 ```
-<div>
-<table style="font-size: 75%">
+<table>
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -51,62 +50,23 @@ ds.meta_df()
     </tr>
   </tbody>
 </table>
-</div>
 
 ```python
 ds.column_df()
 ```
-<div>
-
 <table>
   <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>fieldName</th>
-      <th>position</th>
-      <th>renderTypeName</th>
-    </tr>
+    <tr style="text-align: right;"> <th></th> <th>fieldName</th> <th>position</th> <th>renderTypeName</th> </tr>
   </thead>
   <tbody>
-    <tr>
-      <th>0</th>
-      <td>dbn</td>
-      <td>1</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>school_name</td>
-      <td>2</td>
-      <td>text</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>number_of_test_takers</td>
-      <td>3</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>critical_reading_mean</td>
-      <td>4</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>mathematics_mean</td>
-      <td>5</td>
-      <td>number</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>writing_mean</td>
-      <td>6</td>
-      <td>number</td>
-    </tr>
+    <tr> <th>0</th> <td>dbn</td> <td>1</td> <td>text</td> </tr>
+    <tr> <th>1</th> <td>school_name</td> <td>2</td> <td>text</td> </tr>
+    <tr> <th>2</th> <td>number_of_test_takers</td> <td>3</td> <td>number</td> </tr>
+    <tr> <th>3</th> <td>critical_reading_mean</td> <td>4</td> <td>number</td> </tr>
+    <tr> <th>4</th> <td>mathematics_mean</td> <td>5</td> <td>number</td> </tr>
+    <tr> <th>5</th> <td>writing_mean</td> <td>6</td> <td>number</td> </tr>
   </tbody>
 </table>
-</div>
 
 ```python
 (ds.data_df()

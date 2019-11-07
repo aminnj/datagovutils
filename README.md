@@ -23,7 +23,7 @@ ds = Dataset("https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.json?access
 ds.meta_df()
 ```
 <div>
-<style scoped>
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }
@@ -70,7 +70,8 @@ ds.meta_df()
 ds.column_df()
 ```
 <div>
-<style scoped>
+
+<style>
     .dataframe tbody tr th:only-of-type {
         vertical-align: middle;
     }

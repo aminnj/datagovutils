@@ -23,7 +23,7 @@ ds = Dataset("https://data.cityofnewyork.us/api/views/zt9s-n5aj/rows.json?access
 ds.meta_df()
 ```
 <div>
-<table border="1" class="dataframe">
+<table>
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -58,7 +58,7 @@ ds.column_df()
 ```
 <div>
 
-<table border="1" class="dataframe">
+<table>
   <thead>
     <tr style="text-align: right;">
       <th></th>
@@ -116,4 +116,4 @@ ds.column_df()
  .plot.scatter(x="mathematics_mean",y="critical_reading_mean")
 )
 ```
-<img src="images/example_nycsat.png" width="25%" />
+<img src="images/example_nycsat.png" width="400px" />

@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 from codecs import open
 from os import path
 
-__version__ = '0.0.1'
+__version__ = '1.0.0'
 
 here = path.abspath(path.dirname(__file__))
 
@@ -22,7 +22,7 @@ setup(
     version=__version__,
     description='Utilities for data.gov',
     long_description=long_description,
-    url='https://github.com/aminnj/yahist',
+    url='https://github.com/aminnj/datagovutils',
     download_url='https://github.com/aminnj/datagovutils/tarball/' + __version__,
     license='BSD',
     classifiers=[

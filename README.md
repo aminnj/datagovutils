@@ -9,7 +9,7 @@ chunked iteration/streaming.
 ### Installation
 
 ```bash
-pip install git+git://github.com/aminnj/datagovutils.git#egg=datagovutils -U
+pip install datagovutils
 ```
 
 ### Examples

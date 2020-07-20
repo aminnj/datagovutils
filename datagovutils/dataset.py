@@ -75,7 +75,7 @@ class Dataset(object):
         if self.c_df is None:
             self.c_df = (
                 pd.DataFrame(meta["view"]["columns"])
-                .drop(["id","name","dataTypeName","format","flags","tableColumnId","width","cachedContents"],axis=1)
+                .drop(["id","name","dataTypeName","format","flags","tableColumnId","width","cachedContents"],axis=1,errors="ignore")
                 .query("position>=1")
                 .reset_index(drop=True)
             )
